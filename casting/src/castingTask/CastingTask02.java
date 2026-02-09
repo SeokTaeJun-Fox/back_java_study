@@ -1,0 +1,18 @@
+package castingTask;
+
+public class CastingTask02 {
+	public static void main(String[] args) {
+//      "8.43" + 2.59를 더해서 10이 나오도록 출력하기
+		
+		String stringNum = null;
+		double doubleNum = 0.0;
+		int sum = 0;
+		String format = "%s + %.2f = %d";
+		
+		stringNum = "8.43";
+		doubleNum = 2.59;
+		
+		sum = (int)Double.parseDouble(stringNum) + (int)doubleNum;
+		System.out.printf(format, stringNum, doubleNum, sum);
+	}
+}

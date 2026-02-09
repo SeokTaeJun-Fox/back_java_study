@@ -1,0 +1,20 @@
+package castingTesk;
+
+public class CastingTask01 {
+	public static void main(String[] args) {
+//      6.37, 3.99, 3
+//      3개의 값을 연산하여 3을 만들기
+//      단 모두 한 번씩 사용해야한다.
+		
+		double num1 = 0.0, num2 = 0.0; 
+		int num3 = 0, result = 0;
+		
+		num1 = 6.37;
+		num2 = 3.99;
+		num3 = 3;
+		
+		result = ((int)(num1 + num2))/num3;
+		result = ((int)num1 + (int)num2)/num3;
+		System.out.println(result);
+	}
+}

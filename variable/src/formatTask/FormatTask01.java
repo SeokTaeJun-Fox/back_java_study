@@ -1,0 +1,25 @@
+package formatTask;
+
+public class FormatTask01 {
+	public static void main(String[] args) {
+//      식을 완성시키시오. (포멧으로 출력하기)
+//      10 + 20 = 30
+//      7 * 8 = 56
+//      6 * 4 = 24
+		
+		int num1 = 0;
+		int num2 = 0;
+		
+		num1 = 10;
+		num2 = 20;
+		System.out.printf("%d + %d = %d\n", num1, num2, num1+num2);
+		
+		num1 = 7;
+		num2 = 8;
+		System.out.printf("%d * %d = %d\n", num1, num2, num1*num2);
+		
+		num1 = 6;
+		num2 = 4;
+		System.out.printf("%d * %d = %d\n", num1, num2, num1*num2);
+	}
+}

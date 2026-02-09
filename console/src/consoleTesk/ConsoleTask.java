@@ -1,0 +1,19 @@
+package consoleTesk;
+
+// print만 사용해서
+// 점심메뉴 3개 작성
+// ex)
+// 점심 메뉴:
+// 1. 맥도날드
+// 2. 부산 아지매
+// 3. 노브랜드 버거
+public class ConsoleTask {
+	public static void main(String[] args) {
+		System.out.print("점심 메뉴: \n");
+		System.out.print("1. 맥도날드 \n");
+		System.out.print("2. 부산 아지매 \n");
+		System.out.print("3. 노브랜드 버거 \n");
+		
+		System.out.println(); //syso > 자동완성
+	}
+}

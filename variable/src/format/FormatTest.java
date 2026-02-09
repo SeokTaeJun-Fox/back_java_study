@@ -1,0 +1,19 @@
+package format;
+
+//%d : decimal(10진수 정수)
+//%o : octal(8진수 정수)
+//%x : hexadecimal(16진수 정수)
+//%f : float(실수)
+//%c : character(문자)
+//%s : string(문자열)
+public class FormatTest {
+	public static void main(String[] args) {
+		String name = "URA";
+		int age = 20;
+		double height = 195.2;
+		
+		System.out.printf("이름: %s님\n", name);
+		System.out.printf("나이: %d살\n", age);
+		System.out.printf("키: %.2fcm\n", height);
+	}
+}
