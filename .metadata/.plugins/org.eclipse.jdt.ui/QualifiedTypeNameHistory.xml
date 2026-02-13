@@ -2,14 +2,24 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
     <fullyQualifiedTypeName name="java.lang.Byte"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
     <fullyQualifiedTypeName name="forTest.ForTest"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.io.Console"/>
     <fullyQualifiedTypeName name="java.awt.Desktop.Action"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="char"/>
+    <fullyQualifiedTypeName name="double"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadDeath"/>
+    <fullyQualifiedTypeName name="methodTest.MethodTest"/>
+    <fullyQualifiedTypeName name="methodTask.MethodTask"/>
+    <fullyQualifiedTypeName name="methodTask.MethodTask2"/>
+    <fullyQualifiedTypeName name="methodTask.MethodTask3"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="methodTask.MethodTask4"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
