@@ -54,7 +54,6 @@ class Phone {
 
 class Phone2G extends Phone {
 	public Phone2G() {
-		
 	}
 	
 	public Phone2G(String name, String brand, int price) {
