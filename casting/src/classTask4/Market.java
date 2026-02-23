@@ -23,6 +23,14 @@ public class Market {
 		this.products = products;
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
 	public int getLimitProductTypeAmount() {
 		return limitProductTypeAmount;
 	}
@@ -138,6 +146,10 @@ public class Market {
 				return;
 			}
 		}
+	}
+	
+	public int getProductTypeCount() {
+		return products == null ? 0 : products.length;
 	}
 	
 	public void printProducts() {

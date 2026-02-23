@@ -72,14 +72,62 @@ public class ClassTask4 {
 //		market.printProducts();
 		
 		Scanner sc = new Scanner(System.in);
-		int input = 0;
-		String strInput = null;
+		int input = 0, choice = 0, productAmount = 0, productPrice = 0, buyChoice = 0, buyAmount = 0;
+		String strInput = null, productName = null;
 		
 		while(true) {
-			System.out.printf("어서오세요 %s마켓입니다. 사람을 선택하세요? 1번 : 회원, 2번 : 비회원");
+			System.out.printf("어서오세요 %s마켓입니다. 사람을 선택하세요. 1번 : 비회원, 2번 : 회원", market.getName());
 			input = sc.nextInt();
 			if(input == 1) {
-				
+				selectedBuyer = buyer;
+				break;
+			} else if(input == 2) {
+				selectedBuyer = buyer2;
+				break;
+			} else {
+				System.out.println("잘못 입력하였습니다.");
+			}
+		}
+		
+		
+		while(true) {
+			System.out.printf("%s님 무엇을 도와드릴까요? 1번 : 상품 등록, 2번 : 상품 구매, 3번 나가기", selectedBuyer.getName());
+			choice = sc.nextInt();
+			switch(choice) {
+			case 1:
+				System.out.println("===============================");
+				market.printProducts();
+				System.out.println("===============================");
+				System.out.print("등록할 상품 이름을 쓰시오: ");
+				productName = sc.next();
+				System.out.print("가격을 쓰시오: ");
+				productPrice = sc.nextInt();
+				System.out.print("재고를 쓰시오: ");
+				productAmount = sc.nextInt();
+				market.RegisterProduct(productName, productPrice, productAmount);
+				break;
+			case 2:
+				if(market.getProductTypeCount() == 0) {
+					System.out.println("상품이 없습니다.");
+				} else {
+					System.out.println();
+					System.out.println("============================");
+					selectedBuyer.print();
+					System.out.println("============================");
+					market.printProducts();
+					System.out.println("============================");
+					System.out.println("구매할 상품 번호를 쓰시오");
+					buyChoice = sc.nextInt();
+					System.out.println("구매할 상품 갯수를 쓰시오");
+					buyAmount = sc.nextInt();
+					market.Sell(selectedBuyer, buyChoice, buyAmount);
+				}
+				break;
+			case 3:
+				return;
+			default:
+				System.out.println("잘못 입력하였습니다.");
+				break;
 			}
 		}
 	}
