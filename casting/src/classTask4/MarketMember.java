@@ -6,3 +6,12 @@ public class MarketMember extends Person {
 		super(name, phoneNumber, money, point, coupon);
 	}
 }
+
+//public class MarketMember extends MarketCustomer{
+//	   public MarketMember() {;}
+//	   public MarketMember(String customerName, String customerPhone, int customerMoney) {
+//	      super(customerName, customerPhone, customerMoney);
+//	   }
+//	   
+//	}
+

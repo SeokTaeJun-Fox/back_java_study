@@ -5,3 +5,12 @@ public class MarketNonMember extends Person {
 		super(name, phoneNumber, money, point, coupon);
 	}
 }
+
+//public class MarketNonMember extends MarketCustomer{
+//
+//	   public MarketNonMember() {;}
+//	   public MarketNonMember(String customerName, String customerPhone, int customerMoney) {
+//	      super(customerName, customerPhone, customerMoney);
+//	   }
+//	}
+
