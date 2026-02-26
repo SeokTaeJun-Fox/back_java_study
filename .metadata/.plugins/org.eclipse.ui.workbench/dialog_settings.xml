@@ -8,7 +8,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jpt.jaxb"/>
@@ -23,8 +23,14 @@
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.jst.ejb.ui"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
 		</list>
 		<section name="ImportExportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="1581"/>
@@ -35,10 +41,10 @@
 		</section>
 	</section>
 	<section name="PropertyDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="479"/>
-		<item key="DIALOG_Y_ORIGIN" value="418"/>
-		<item key="DIALOG_WIDTH" value="1018"/>
-		<item key="DIALOG_HEIGHT" value="621"/>
-		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<item key="DIALOG_X_ORIGIN" value="439"/>
+		<item key="DIALOG_Y_ORIGIN" value="293"/>
+		<item key="DIALOG_WIDTH" value="945"/>
+		<item key="DIALOG_HEIGHT" value="556"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
