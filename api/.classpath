@@ -11,5 +11,9 @@
 	<classpathentry exported="true" kind="lib" path="D:/back_0900_stj/java/resource/lib/json-simple-1.1.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/back_0900_stj/java/resource/lib/activation-1.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="D:/back_0900_stj/java/resource/lib/mail-1.4.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/태준이꺼/인프런 강의/국비웹개발/java1/resource/java-sdk v2.2/lib/javaSDK-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/태준이꺼/인프런 강의/국비웹개발/java1/resource/java-sdk v2.2/lib/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/태준이꺼/인프런 강의/국비웹개발/java1/resource/java_mail_api/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/태준이꺼/인프런 강의/국비웹개발/java1/resource/java_mail_api/mail-1.4.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

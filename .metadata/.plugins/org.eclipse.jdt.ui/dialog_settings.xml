@@ -14,7 +14,7 @@
 	<item key="CallHierarchyViewPart.ratio3" value="500"/>
 	<item key="CallHierarchyViewPart.orientation" value="3"/>
 	<item key="CallHierarchyViewPart.ratio1" value="500"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\back_0900_stj\java\resource\lib"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\태준이꺼\인프런 강의\국비웹개발\java1\resource\java_mail_api"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -170,7 +170,7 @@
 		</section>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="2"/>
+		<item key="pageIndex" value="3"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_X_ORIGIN" value="710"/>

@@ -2,7 +2,7 @@ package apiTest;
 
 public class ApiTest {
 	public static void main(String[] args) {
-		Calc calc = new Calc();
-		System.out.println(calc.divide(20, 10));
+		//Calc calc = new Calc();
+		//System.out.println(calc.divide(20, 10));
 	}
 }
