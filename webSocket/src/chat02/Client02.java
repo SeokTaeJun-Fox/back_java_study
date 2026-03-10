@@ -12,7 +12,9 @@ import java.util.Scanner;
 public class Client02 {
    public static void main(String[] args) {
 //      ip, port
-      String serverIp = "192.168.12.110";
+      String serverIp = "192.168.219.104";
+//      ÇÐ¿ø : "192.168.12.110"
+//      Áý : "192.168.219.104"
       int port = 1100;
       String clientMessage = null, serverMessage = null; 
       

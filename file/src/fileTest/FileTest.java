@@ -40,7 +40,6 @@ public class FileTest {
 //		while((line = bufferedReader.readLine())!= null) {
 //			System.out.println(line);
 //		}
-			
 			bufferedReader.lines().forEach(System.out::println);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
