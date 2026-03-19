@@ -6,7 +6,7 @@ public class ATM implements Runnable {
 	public void withdraw(int money) {
 //		µ¿±â: synchronized(°´Ã¼){}
 		synchronized (this) {
-			System.out.println("°N");
+			System.out.println("µ· ºüÁü");
 			this.money -= money;
 		}
 		

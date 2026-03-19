@@ -15,9 +15,9 @@ public class MemberVO {
 	
 //  3. 초기화 생성자
 	public MemberVO(String memberEmail, String memberPassword, String memberAddress) {
+		this.memberEmail = memberEmail;
 		this.memberPassword = memberPassword;
 		this.memberAddress = memberAddress;
-		this.memberRecommenderEmail = memberRecommenderEmail;
 	}
 	
 	public MemberVO(long memberId, String memberEmail, String memberPassword, String memberAddress,

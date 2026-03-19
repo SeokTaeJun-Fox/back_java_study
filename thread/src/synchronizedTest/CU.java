@@ -5,7 +5,7 @@ public class CU {
 		ATM atm = new ATM();
 		
 		Thread parent = new Thread(atm, "엄마");
-		Thread child = new Thread(atm, "새끼");	
+		Thread child = new Thread(atm, "아들");	
 		
 		parent.start();
 		child.start();
